@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/exefile.dir/link.d CMakeFiles/exefile.dir/main.cpp.o CMakeFiles/exefile.dir/Datum.cpp.o CMakeFiles/exefile.dir/Vremenska_oznaka.cpp.o -o exefile

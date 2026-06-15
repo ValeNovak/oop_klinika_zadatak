@@ -1,0 +1,3 @@
+/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles/klinika.dir
+/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles/edit_cache.dir
+/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles/rebuild_cache.dir

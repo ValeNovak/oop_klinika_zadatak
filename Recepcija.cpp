@@ -51,6 +51,7 @@ bool Recepcija::zakaziTermin(std::string usluga, std::string oib_pacijenta,
 
     if (listaDoktora[i].jeliDoktorSlobodan(vrijeme)) {
       izabraniDoktor = &listaDoktora[i];
+      break;
     }
   }
 
@@ -63,6 +64,7 @@ bool Recepcija::zakaziTermin(std::string usluga, std::string oib_pacijenta,
 
     if (listaPacijenata[i].getOib() == oib_pacijenta) {
       izabraniPacijent = &listaPacijenata[i];
+      break;
     }
   }
   if (izabraniPacijent == nullptr) {

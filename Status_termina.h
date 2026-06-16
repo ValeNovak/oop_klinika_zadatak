@@ -11,7 +11,9 @@ class Status_termina {
 public:
   unsigned short get_status_ind();
 
-  unsigned int dohvati_id_status_termina(const std::string &status_termina);
+  std::string get_status_string();
+
+  unsigned int dohvati_id_status_termina(std::string &status_termina);
 
   void setStatus(std::string status);
 

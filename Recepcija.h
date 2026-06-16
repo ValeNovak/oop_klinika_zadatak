@@ -29,18 +29,19 @@ class Status_termina;
 class Sex;
 
 class Recepcija {
-public:
+private:
   vector<Termin> listaTermina;
-  vector<Racun> listaRacuna;
   Klinika *klinika;
   vector<Doktor> listaDoktora;
   vector<Pacijent> listaPacijenata;
+  vector<Racun> listaIzdanihRacuna;
   Recepcija(Klinika *klinka);
 
+public:
   inline static std::map<std::string, float> usluge = {
       {"Pregled", 50.00},
-      {"Čišćenje kamenca", 80.00},
-      {"Vađenje zuba", 100.00}};
+      {"Ciscenje kamenca", 80.00},
+      {"Vadenje zuba", 100.00}};
   /**
    * @param usluga
    * @param oib_pacijenta
@@ -50,11 +51,7 @@ public:
   bool zakaziTermin(std::string usluga, std::string oib_pacijenta,
                     Vremenska_oznaka vrijeme);
 
-  /**
-   * @param pacijent
-   * @param vrijeme
-   */
-  void otkaziTermin(Pacijent pacijent, Vremenska_oznaka vrijeme);
+  void izvrsiTermin(Vremenska_oznaka vrijeme);
 
   /**
    * @param ime
@@ -85,6 +82,9 @@ public:
   void ispisiListuDoktora();
   void ispisiListuPacijenata();
   void ispisiListuTermina();
+  void ispisiListuRacuna();
+
+  Pacijent *odaberiPacijenta();
 };
 
 #endif //_RECEPCIJA_H

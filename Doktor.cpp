@@ -12,12 +12,13 @@
 /**
  * @return Termin
  */
-void Doktor::provedbaTermina(Vremenska_oznaka trenutni_dan) { ; }
+
+void Doktor::dodajTermin(Termin *termin) { raspored.push_back(termin); }
 
 bool Doktor::jeliDoktorSlobodan(Vremenska_oznaka vremenska_oznaka) {
 
-  for (Termin *termin : raspored) {
-    if (vremenska_oznaka.daliJeVrijemeIsto(*termin->getVrijeme())) {
+  for (int i = 0; i < raspored.size(); ++i) {
+    if (vremenska_oznaka.daliJeVrijemeIsto(*raspored[i]->getVrijeme())) {
       return false;
     }
   }

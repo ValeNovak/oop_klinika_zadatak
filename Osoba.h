@@ -63,15 +63,7 @@ public:
    */
   void setEmail(std::string new_e);
 
-  /**
-   * @param izbor
-   * @param new
-   */
-  void promijeniPodatak(int izbor);
-
-
-
-  void ispisi_info();
+  void ispisiInfo();
 
 protected:
   std::string ime;

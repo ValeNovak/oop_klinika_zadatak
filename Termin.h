@@ -16,7 +16,7 @@ public:
   /**
    * @param new_s
    */
-  void setStatus(Status_termina *new_s);
+  void setStatus(std::string status);
 
   Usluga *getUsluga();
 
@@ -45,7 +45,6 @@ public:
    * @param value
    */
   void setVrijeme(Vremenska_oznaka value);
-
 
   void ispisiInfo();
 

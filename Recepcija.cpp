@@ -40,17 +40,17 @@ bool Recepcija::zakaziTermin(std::string usluga, std::string oib_pacijenta,
 
   odabranaUsluga.setCijena(usluge.at(usluga));
 
-  for (auto &termin : listaTermina) {
-    if (termin.getVrijeme()->daliJeVrijemeIsto(vrijeme)) {
+  for (int i = 0; i < listaTermina.size(); ++i) {
+    if (listaTermina[i].getVrijeme()->daliJeVrijemeIsto(vrijeme)) {
       return false;
     }
   }
 
   Doktor *izabraniDoktor = nullptr;
-  for (auto &doktor : listaDoktora) {
+  for (int i = 0; i < listaDoktora.size(); ++i) {
 
-    if (doktor.jeliDoktorSlobodan(vrijeme)) {
-      izabraniDoktor = &doktor;
+    if (listaDoktora[i].jeliDoktorSlobodan(vrijeme)) {
+      izabraniDoktor = &listaDoktora[i];
     }
   }
 
@@ -59,11 +59,14 @@ bool Recepcija::zakaziTermin(std::string usluga, std::string oib_pacijenta,
   }
 
   Pacijent *izabraniPacijent = nullptr;
-  for (auto &pacijent : listaPacijenata) {
+  for (int i = 0; i < listaPacijenata.size(); ++i) {
 
-    if (pacijent.getOib() == oib_pacijenta) {
-      izabraniPacijent = &pacijent;
+    if (listaPacijenata[i].getOib() == oib_pacijenta) {
+      izabraniPacijent = &listaPacijenata[i];
     }
+  }
+  if (izabraniPacijent == nullptr) {
+    return false;
   }
   Termin termin;
   termin.setDoktor(izabraniDoktor);
@@ -72,6 +75,7 @@ bool Recepcija::zakaziTermin(std::string usluga, std::string oib_pacijenta,
   termin.setPacijent(izabraniPacijent);
 
   listaTermina.push_back(termin);
+  izabraniDoktor->dodajTermin(&listaTermina[listaTermina.size() - 1]);
   return true;
 }
 
@@ -81,11 +85,14 @@ void Recepcija::ispisiListuTermina() {
   }
 }
 
-/**
- * @param pacijent
- * @param vrijeme
- */
-void Recepcija::otkaziTermin(Pacijent pacijent, Vremenska_oznaka vrijeme) {}
+void Recepcija::ispisiListuRacuna() {
+  for (auto &racun : listaIzdanihRacuna) {
+    std::cout << "--Racun za termin--" << std::endl;
+    racun.getTermin()->ispisiInfo();
+
+    std::cout << "------------------------" << std::endl;
+  }
+}
 
 /**
  * @param ime
@@ -114,16 +121,51 @@ void Recepcija::dodajDoktora(std::string ime, std::string prezime,
 }
 
 void Recepcija::ispisiListuDoktora() {
+  std::cout << " Lista doktora  " << std::endl;
   for (auto &doktor : listaDoktora) {
     std::cout << "-----" << std::endl;
-    doktor.ispisi_info();
+    doktor.ispisiInfo();
   }
+  std::cout << "\n" << std::endl;
 }
 
 void Recepcija::ispisiListuPacijenata() {
   for (auto &pacijent : listaPacijenata) {
     std::cout << "-----" << std::endl;
-    pacijent.ispisi_info();
+    pacijent.ispisiInfo();
+  }
+}
+
+Pacijent *Recepcija::odaberiPacijenta() {
+  if (listaPacijenata.size() == 0) {
+    return nullptr;
+  }
+  std::cout << "    " << std::endl;
+  for (int i = 0; i < listaPacijenata.size(); ++i) {
+    std::cout << "-------------------------" << std::endl;
+    std::cout << "Index : " << i << std::endl;
+    listaPacijenata[i].ispisiInfo();
+    std::cout << "-------------\n" << std::endl;
+  }
+
+  unsigned int index;
+  std::cin >> index;
+  if (index >= listaPacijenata.size()) {
+    return &listaPacijenata[0];
+  }
+  return &listaPacijenata[index];
+}
+
+void Recepcija::izvrsiTermin(Vremenska_oznaka vrijeme) {
+
+  for (auto &termin : listaTermina) {
+    if (termin.getVrijeme()->daliJeVrijemeIsto(vrijeme)) {
+      termin.setStatus("izvrsen");
+
+      Racun racun(&termin);
+      racun.podmiren();
+      listaIzdanihRacuna.push_back(racun);
+    }
   }
 }
 

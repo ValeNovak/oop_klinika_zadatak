@@ -83,7 +83,7 @@ std::string Osoba::getEmail() { return email; }
  */
 void Osoba::setEmail(std::string new_e) { email = new_e; }
 
-void Osoba::ispisi_info() {
+void Osoba::ispisiInfo() {
   std::cout << "Ime :" << ime << std::endl;
   std::cout << "Prezime :" << prezime << std::endl;
   std::cout << "Oib :" << oib << std::endl;

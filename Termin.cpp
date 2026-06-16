@@ -13,7 +13,7 @@
 /**
  * @param new_s
  */
-void Termin::setStatus(Status_termina *new_s) {}
+void Termin::setStatus(std::string status) { this->status.setStatus(status); }
 
 /**
  * @return Usluga
@@ -23,7 +23,7 @@ Usluga *Termin::getUsluga() { return &usluga; }
 /**
  * @param value
  */
-void Termin::setUsluga(Usluga value) { this->usluga = usluga; }
+void Termin::setUsluga(Usluga value) { this->usluga = value; }
 
 /**
  * @return Doktor
@@ -60,10 +60,13 @@ void Termin::setVrijeme(Vremenska_oznaka vremenska_oznaka) {
 Termin::Termin() { status.setStatus("zakazan"); }
 
 void Termin::ispisiInfo() {
+
+  vrijeme.ispisiVrijeme();
   std::cout << "Doktor -----" << std::endl;
-  doktor->ispisi_info();
+  doktor->ispisiInfo();
   std::cout << "\nPacijent ----" << std::endl;
-  pacijent->ispisi_info();
-  std::cout<<"\nUsluga ------" <<std::endl;
-  std::cout<<usluga.getNaziv()<<std::endl;
+  pacijent->ispisiInfo();
+  std::cout << "\nUsluga : " << usluga.getNaziv() << "   " << usluga.getCijena()
+            << " eur " << std::endl;
+  std::cout << "Termin status : " << status.get_status_string() << std::endl;
 }

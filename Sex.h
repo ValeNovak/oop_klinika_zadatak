@@ -18,7 +18,7 @@ public:
 
   unsigned short get_spol_ind();
 
-  static unsigned int dohvati_id_spola(const std::string &spol);
+  static unsigned int dohvati_id_spola(std::string &spol);
 
 private:
   inline static const vector<std::string> spolovi = {"zensko", "musko"};

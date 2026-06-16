@@ -19,6 +19,7 @@ public:
   bool daliJeVrijemeIsto(Datum datum, int sat, int minuta);
   bool daliJeVrijemeIsto(Vremenska_oznaka Vremenska_oznaka);
   Datum getDatum();
+  void ispisiVrijeme();
 };
 
 #endif //_VREMENSKA_OZNAKA_H

@@ -19,7 +19,6 @@ set(SOURCES
     Racun.cpp
     Recepcija.cpp
     Sex.cpp
-    Specijalizacija.cpp
     Status_termina.cpp
     Termin.cpp
     Usluga.cpp

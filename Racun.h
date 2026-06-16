@@ -8,10 +8,13 @@
 
 class Racun {
 public:
+  Racun(Termin *termin);
   void podmiren();
 
+  Termin *getTermin();
+
 private:
-  Termin termin;
+  Termin *termin;
   bool placeno;
 };
 

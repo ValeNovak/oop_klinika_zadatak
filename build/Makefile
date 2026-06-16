@@ -321,30 +321,6 @@ Sex.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/klinika.dir/build.make CMakeFiles/klinika.dir/Sex.cpp.s
 .PHONY : Sex.cpp.s
 
-Specijalizacija.o: Specijalizacija.cpp.o
-.PHONY : Specijalizacija.o
-
-# target to build an object file
-Specijalizacija.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klinika.dir/build.make CMakeFiles/klinika.dir/Specijalizacija.cpp.o
-.PHONY : Specijalizacija.cpp.o
-
-Specijalizacija.i: Specijalizacija.cpp.i
-.PHONY : Specijalizacija.i
-
-# target to preprocess a source file
-Specijalizacija.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klinika.dir/build.make CMakeFiles/klinika.dir/Specijalizacija.cpp.i
-.PHONY : Specijalizacija.cpp.i
-
-Specijalizacija.s: Specijalizacija.cpp.s
-.PHONY : Specijalizacija.s
-
-# target to generate assembly for a file
-Specijalizacija.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/klinika.dir/build.make CMakeFiles/klinika.dir/Specijalizacija.cpp.s
-.PHONY : Specijalizacija.cpp.s
-
 Status_termina.o: Status_termina.cpp.o
 .PHONY : Status_termina.o
 
@@ -498,9 +474,6 @@ help:
 	@echo "... Sex.o"
 	@echo "... Sex.i"
 	@echo "... Sex.s"
-	@echo "... Specijalizacija.o"
-	@echo "... Specijalizacija.i"
-	@echo "... Specijalizacija.s"
 	@echo "... Status_termina.o"
 	@echo "... Status_termina.i"
 	@echo "... Status_termina.s"

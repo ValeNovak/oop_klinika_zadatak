@@ -16,7 +16,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/leno/vale/oop_klinika_zadatak/Racun.cpp" "CMakeFiles/klinika.dir/Racun.cpp.o" "gcc" "CMakeFiles/klinika.dir/Racun.cpp.o.d"
   "/home/leno/vale/oop_klinika_zadatak/Recepcija.cpp" "CMakeFiles/klinika.dir/Recepcija.cpp.o" "gcc" "CMakeFiles/klinika.dir/Recepcija.cpp.o.d"
   "/home/leno/vale/oop_klinika_zadatak/Sex.cpp" "CMakeFiles/klinika.dir/Sex.cpp.o" "gcc" "CMakeFiles/klinika.dir/Sex.cpp.o.d"
-  "/home/leno/vale/oop_klinika_zadatak/Specijalizacija.cpp" "CMakeFiles/klinika.dir/Specijalizacija.cpp.o" "gcc" "CMakeFiles/klinika.dir/Specijalizacija.cpp.o.d"
   "/home/leno/vale/oop_klinika_zadatak/Status_termina.cpp" "CMakeFiles/klinika.dir/Status_termina.cpp.o" "gcc" "CMakeFiles/klinika.dir/Status_termina.cpp.o.d"
   "/home/leno/vale/oop_klinika_zadatak/Termin.cpp" "CMakeFiles/klinika.dir/Termin.cpp.o" "gcc" "CMakeFiles/klinika.dir/Termin.cpp.o.d"
   "/home/leno/vale/oop_klinika_zadatak/Usluga.cpp" "CMakeFiles/klinika.dir/Usluga.cpp.o" "gcc" "CMakeFiles/klinika.dir/Usluga.cpp.o.d"

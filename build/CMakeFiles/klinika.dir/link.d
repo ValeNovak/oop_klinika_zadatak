@@ -11,7 +11,6 @@ klinika: \
   CMakeFiles/klinika.dir/Racun.cpp.o \
   CMakeFiles/klinika.dir/Recepcija.cpp.o \
   CMakeFiles/klinika.dir/Sex.cpp.o \
-  CMakeFiles/klinika.dir/Specijalizacija.cpp.o \
   CMakeFiles/klinika.dir/Status_termina.cpp.o \
   CMakeFiles/klinika.dir/Termin.cpp.o \
   CMakeFiles/klinika.dir/Usluga.cpp.o \
@@ -71,8 +70,6 @@ CMakeFiles/klinika.dir/Racun.cpp.o:
 CMakeFiles/klinika.dir/Recepcija.cpp.o:
 
 CMakeFiles/klinika.dir/Sex.cpp.o:
-
-CMakeFiles/klinika.dir/Specijalizacija.cpp.o:
 
 CMakeFiles/klinika.dir/Status_termina.cpp.o:
 

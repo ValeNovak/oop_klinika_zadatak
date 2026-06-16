@@ -161,7 +161,6 @@ CMakeFiles/klinika.dir/Pacijent.cpp.o: \
  /usr/include/c++/16.1.1/bits/ostream.tcc /usr/include/c++/16.1.1/istream \
  /usr/include/c++/16.1.1/bits/istream.tcc \
  /home/leno/vale/oop_klinika_zadatak/Doktor.h \
- /home/leno/vale/oop_klinika_zadatak/Specijalizacija.h \
  /home/leno/vale/oop_klinika_zadatak/Vremenska_oznaka.h \
  /home/leno/vale/oop_klinika_zadatak/Recepcija.h \
  /home/leno/vale/oop_klinika_zadatak/Klinika.h \

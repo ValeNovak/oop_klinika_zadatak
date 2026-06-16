@@ -198,24 +198,10 @@ CMakeFiles/klinika.dir/Sex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/klinika.dir/Sex.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leno/vale/oop_klinika_zadatak/Sex.cpp -o CMakeFiles/klinika.dir/Sex.cpp.s
 
-CMakeFiles/klinika.dir/Specijalizacija.cpp.o: CMakeFiles/klinika.dir/flags.make
-CMakeFiles/klinika.dir/Specijalizacija.cpp.o: /home/leno/vale/oop_klinika_zadatak/Specijalizacija.cpp
-CMakeFiles/klinika.dir/Specijalizacija.cpp.o: CMakeFiles/klinika.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/klinika.dir/Specijalizacija.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klinika.dir/Specijalizacija.cpp.o -MF CMakeFiles/klinika.dir/Specijalizacija.cpp.o.d -o CMakeFiles/klinika.dir/Specijalizacija.cpp.o -c /home/leno/vale/oop_klinika_zadatak/Specijalizacija.cpp
-
-CMakeFiles/klinika.dir/Specijalizacija.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/klinika.dir/Specijalizacija.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/leno/vale/oop_klinika_zadatak/Specijalizacija.cpp > CMakeFiles/klinika.dir/Specijalizacija.cpp.i
-
-CMakeFiles/klinika.dir/Specijalizacija.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/klinika.dir/Specijalizacija.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/leno/vale/oop_klinika_zadatak/Specijalizacija.cpp -o CMakeFiles/klinika.dir/Specijalizacija.cpp.s
-
 CMakeFiles/klinika.dir/Status_termina.cpp.o: CMakeFiles/klinika.dir/flags.make
 CMakeFiles/klinika.dir/Status_termina.cpp.o: /home/leno/vale/oop_klinika_zadatak/Status_termina.cpp
 CMakeFiles/klinika.dir/Status_termina.cpp.o: CMakeFiles/klinika.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/klinika.dir/Status_termina.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/klinika.dir/Status_termina.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klinika.dir/Status_termina.cpp.o -MF CMakeFiles/klinika.dir/Status_termina.cpp.o.d -o CMakeFiles/klinika.dir/Status_termina.cpp.o -c /home/leno/vale/oop_klinika_zadatak/Status_termina.cpp
 
 CMakeFiles/klinika.dir/Status_termina.cpp.i: cmake_force
@@ -229,7 +215,7 @@ CMakeFiles/klinika.dir/Status_termina.cpp.s: cmake_force
 CMakeFiles/klinika.dir/Termin.cpp.o: CMakeFiles/klinika.dir/flags.make
 CMakeFiles/klinika.dir/Termin.cpp.o: /home/leno/vale/oop_klinika_zadatak/Termin.cpp
 CMakeFiles/klinika.dir/Termin.cpp.o: CMakeFiles/klinika.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/klinika.dir/Termin.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/klinika.dir/Termin.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klinika.dir/Termin.cpp.o -MF CMakeFiles/klinika.dir/Termin.cpp.o.d -o CMakeFiles/klinika.dir/Termin.cpp.o -c /home/leno/vale/oop_klinika_zadatak/Termin.cpp
 
 CMakeFiles/klinika.dir/Termin.cpp.i: cmake_force
@@ -243,7 +229,7 @@ CMakeFiles/klinika.dir/Termin.cpp.s: cmake_force
 CMakeFiles/klinika.dir/Usluga.cpp.o: CMakeFiles/klinika.dir/flags.make
 CMakeFiles/klinika.dir/Usluga.cpp.o: /home/leno/vale/oop_klinika_zadatak/Usluga.cpp
 CMakeFiles/klinika.dir/Usluga.cpp.o: CMakeFiles/klinika.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/klinika.dir/Usluga.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/klinika.dir/Usluga.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klinika.dir/Usluga.cpp.o -MF CMakeFiles/klinika.dir/Usluga.cpp.o.d -o CMakeFiles/klinika.dir/Usluga.cpp.o -c /home/leno/vale/oop_klinika_zadatak/Usluga.cpp
 
 CMakeFiles/klinika.dir/Usluga.cpp.i: cmake_force
@@ -257,7 +243,7 @@ CMakeFiles/klinika.dir/Usluga.cpp.s: cmake_force
 CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o: CMakeFiles/klinika.dir/flags.make
 CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o: /home/leno/vale/oop_klinika_zadatak/Vremenska_oznaka.cpp
 CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o: CMakeFiles/klinika.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o -MF CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o.d -o CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o -c /home/leno/vale/oop_klinika_zadatak/Vremenska_oznaka.cpp
 
 CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.i: cmake_force
@@ -279,7 +265,6 @@ klinika_OBJECTS = \
 "CMakeFiles/klinika.dir/Racun.cpp.o" \
 "CMakeFiles/klinika.dir/Recepcija.cpp.o" \
 "CMakeFiles/klinika.dir/Sex.cpp.o" \
-"CMakeFiles/klinika.dir/Specijalizacija.cpp.o" \
 "CMakeFiles/klinika.dir/Status_termina.cpp.o" \
 "CMakeFiles/klinika.dir/Termin.cpp.o" \
 "CMakeFiles/klinika.dir/Usluga.cpp.o" \
@@ -297,7 +282,6 @@ klinika: CMakeFiles/klinika.dir/Pacijent.cpp.o
 klinika: CMakeFiles/klinika.dir/Racun.cpp.o
 klinika: CMakeFiles/klinika.dir/Recepcija.cpp.o
 klinika: CMakeFiles/klinika.dir/Sex.cpp.o
-klinika: CMakeFiles/klinika.dir/Specijalizacija.cpp.o
 klinika: CMakeFiles/klinika.dir/Status_termina.cpp.o
 klinika: CMakeFiles/klinika.dir/Termin.cpp.o
 klinika: CMakeFiles/klinika.dir/Usluga.cpp.o
@@ -305,7 +289,7 @@ klinika: CMakeFiles/klinika.dir/Vremenska_oznaka.cpp.o
 klinika: CMakeFiles/klinika.dir/build.make
 klinika: CMakeFiles/klinika.dir/compiler_depend.ts
 klinika: CMakeFiles/klinika.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable klinika"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/leno/vale/oop_klinika_zadatak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable klinika"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/klinika.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

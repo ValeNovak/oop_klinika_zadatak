@@ -16,8 +16,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/klinika.dir/Recepcija.cpp.o.d"
   "CMakeFiles/klinika.dir/Sex.cpp.o"
   "CMakeFiles/klinika.dir/Sex.cpp.o.d"
-  "CMakeFiles/klinika.dir/Specijalizacija.cpp.o"
-  "CMakeFiles/klinika.dir/Specijalizacija.cpp.o.d"
   "CMakeFiles/klinika.dir/Status_termina.cpp.o"
   "CMakeFiles/klinika.dir/Status_termina.cpp.o.d"
   "CMakeFiles/klinika.dir/Termin.cpp.o"
